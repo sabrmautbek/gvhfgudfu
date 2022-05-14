@@ -1,0 +1,16 @@
+<html>
+ <head>
+ 	<title>Фоновое изображение с помощью CSS</title>
+   <style>
+	body {
+		background: #000 url(nubex.png); /* Фоновый цвет и фоновый рисунок*/
+		color: #fff; /*Цвет текста на странице*/
+		background-attachment: fixed; /* Фон страницы фиксируется */
+		background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+	}
+   </style>
+ </head>
+ <body>
+	<p>Здесь фоновый рисунок устанавливается с помощью свойства background CSS (фон картинка CSS).</p>
+ </body>
+</html>
